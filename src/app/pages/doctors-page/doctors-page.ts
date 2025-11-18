@@ -8,8 +8,8 @@ import { Doctor } from '../../types/doctors.interface';
   selector: 'app-doctors-page',  
   standalone: true,  
   imports: [CommonModule],  
-  templateUrl: './doctors-page.component.html',  
-  styleUrls: ['./doctors-page.component.scss']
+  templateUrl: './doctors-page.html',  
+  styleUrls: ['./doctors-page.css']
 })
 export class DoctorsPageComponent {
   private doctorsService = inject(DoctorsService);  
