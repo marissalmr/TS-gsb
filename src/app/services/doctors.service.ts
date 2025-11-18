@@ -2,7 +2,7 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
 import { Medecin } from '../types/medecin.interface';
-import { Doctor } from '../types/doctor.interface';
+import { Doctor } from '../types/doctors.interface';
 import { convertMedecinToDoctor } from '../helpers/convert-medecin-to-doctor';
 
 @Injectable({ providedIn: 'root' })
