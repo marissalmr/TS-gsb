@@ -4,7 +4,11 @@ import { Doctor } from '../types/doctors.interface';
 // Fonction classique (pas fléchée) 
 export function convertMedecinToDoctor(medecin: Medecin): Doctor {
   return {
-    id: medecin.id,    
-    ...
+    id: medecin.id,
+    prenom : medecin.prenom,
+    nom : medecin.nom,
+    email : medecin.email,
+    specialite: medecin.specialitecomplementaire,
+    adresse : medecin.adresse 
   };
 }
